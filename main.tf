@@ -1,5 +1,5 @@
 provider "aws" {
-  # profile = "default"
+  # profile = "default" https://stackoverflow.com/questions/75740175/error-configuring-terraform-aws-provider-failed-to-get-shared-config-profile
   region = "eu-north-1"
 }
 
