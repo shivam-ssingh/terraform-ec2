@@ -1,0 +1,13 @@
+terraform init
+
+terraform apply
+
+ssh -i "AnsiblePEM.pem" ec2-user@13.48.149.44
+
+
+
+--
+chmod 400 Ansible-WSL.pem 
+ls -l Ansible-WSL.pem 
+
+ansible-playbook -i hosts docker_install.yml //run in wsl
